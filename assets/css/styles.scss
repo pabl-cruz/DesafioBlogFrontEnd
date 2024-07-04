@@ -2,13 +2,188 @@
     font-family: 'Poppins', sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: content-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+h2{
+    font-size: 28px;
+    margin-top: 3rem;
+    margin-bottom: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.row{
+   display: flex;
+   flex-wrap: wrap; 
+}
+
+.col-half{
+    width: 4.16666666666666667%;
+}
+
+.col-1{
+    width: 8.3333333333333333%;
+}
+
+.col-2{
+    width: 16.666666666666667%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33333333333334%;
+}
+
+.col-5{
+    width: 41.66666666666667%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.3333333333333334%;
+}
+
+.col-8{
+    width: 66.6666666666666667%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.33333333333333334%;
+}
+
+.col-11{
+    width: 91.666666666666666667%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+.header, .footer{
+    width: 100%;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    border-bottom: 2px solid #ccc;
+    &__logo{
+        width: 85%;
+        border-radius: 5px;
+        box-shadow: 1px 2px 3px #aaa;
+    }
+    &__title{
+        font-size: 24px;
+        padding-left: 22px;
+    }
+}
+
+.container{
+    display: flex;
+    width: 1120px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.main__title{
+    margin: 1.5rem 0rem 1.5rem 0rem;
+}
+
+.card{
+    margin-right: 1.5rem;
+    margin-bottom: 1.7rem;
+    margin-top: 1.7rem;
+    &__img{
+        object-fit: cover;
+        width: 100%;
+        border-radius: 20px;
+    }
+    &__date{
+        font-size: 18px;
+        margin: 1.7rem 0rem 0.8rem 0rem;
+    }
+    &__title{
+        font-size: 24px;
+        margin: 0.8rem 0rem 1.7rem 0rem;
+    }
+    &__userImage{
+        width: 9%;
+        border-radius: 100px;
+    }
+    &__authorTitle{
+        font-size: 24px;
+        font-weight: 500;
+        align-self: center;
+        padding-left: 1.5rem;
+    }
+    &__featured{
+        margin-top: 0rem;
+    }
+    &__popular{
+        margin-right: 0rem;
+    }
+}
+
+.post{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    &__imgContainer{
+        margin-right: 1.2rem;
+    }
+    &__img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    &__firstChild{
+        margin-top: 0rem;
+    }
+    &__date{
+        font-size: 16px;
+        padding-bottom: 0.5rem;
+    }
+    &__title{
+        font-size: 20px;
+        padding: 0.5rem 0rem 0.5rem 0rem;
+    }
+    &__userImage{
+        width: 15%;
+        border-radius: 100px;
+    }
+    &__authorTitle{
+        font-size: 16px;
+        font-weight: 500;
+        align-self: center;
+        padding-left: 0.6rem;
+    }
+}
+
+.popular{
+    
+}
+
+.category{
+    &__title{
+        font-weight: 700;
+        color: #FFF;
+        font-size: 32px;
+    }
+}

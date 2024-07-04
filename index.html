@@ -11,19 +11,23 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="container">
-    <header>
-            <img src="assets/img/logos/adl.png" class="header__logo" alt="logo desafio latam">
-            <h1 class="header__title">Blog FrontEnd</h1>
+<body >
+    <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-half">
+                        <img src="assets/img/logos/adl.png" class="header__logo" alt="logo desafio latam">
+                    </div>
+                <h1 class="header__title col-3">Blog FrontEnd</h1>
+                </div>
+            </div>
     </header>
-    <main>
+    <main class="container">
+        <h2 class="main__title">Novedades</h2>
         <div class="row">
-            <h2 class="section__title">Novedades</h2>
         <section class="col-7 featured">
             <div class="card card__featured">
-                <figure class="card__img">
-                    <img src="assets/img/posts/bootstrap.png" alt="logo bootstrap">
-                </figure>
+                    <img class="card__img" src="assets/img/posts/bootstrap.png" alt="logo bootstrap">
                 <span class="card__date">24 Noviembre, 2022</span>
                 <h4 class="card__title">Modifica el tema de Bootstrap con variables CSS</h4>
                 <div class="row">
@@ -33,55 +37,55 @@
             </div>
         </section>
         <section class="col-5 featured-news">
-            <article class="post row">
-                <figure class="col-4">
-                    <img src="assets/img/posts/Herencia-JS.png" alt="Javascript">
-                </figure>
-                <div class="col-8">
-                    <span class="post__date">24 Noviembre, 2022</span>
-                <h4 class="post__title">Herencia en Javascript</h4>
+            <article class="post post__firstChild">
                 <div class="row">
-                    <img class="card__userImage" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
-                    <h5 class="card__authorTitle">Desafío Latam</h5>
-                </div>
+                    <figure class="col-5 post__imgContainer">
+                        <img class="post__img" src="assets/img/posts/Herencia-JS.png" alt="Javascript">
+                    </figure>
+                    <div class="col-6">
+                        <span class="post__date">24 Noviembre, 2022</span>
+                    <h4 class="post__title">Herencia en Javascript</h4>
+                    <div class="row">
+                        <img class="post__userImage" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
+                        <h5 class="post__authorTitle">Desafío Latam</h5>
+                    </div>
+                    </div>
                 </div>
             </article>
             <article class="post row">
-                <figure class="col-4">
-                    <img src="assets/img/posts/Etiquetas-semánticas-HTML.png" alt="Etiquetas semanticas">
+                <figure class="col-5 post__imgContainer">
+                    <img class="post__img" src="assets/img/posts/Etiquetas-semánticas-HTML.png" alt="Etiquetas semanticas">
                 </figure>
-                <div class="col-8">
+                <div class="col-6">
                     <span class="post__date">24 Noviembre, 2022</span>
                 <h4 class="post__title">Etiquetas semánticas</h4>
                 <div class="row">
-                    <img class="card__userImage" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
-                    <h5 class="card__authorTitle">Desafío Latam</h5>
+                    <img class="post__userImage" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
+                    <h5 class="post__authorTitle">Desafío Latam</h5>
                 </div>
                 </div>
             </article>
             <article class="post row">
-                <figure class="col-4">
-                    <img src="assets/img/posts/reactComponents.png" alt="Componentes React">
+                <figure class="col-5 post__imgContainer">
+                    <img class="post__img" src="assets/img/posts/reactComponents.png" alt="Componentes React">
                 </figure>
-                <div class="col-8">
+                <div class="col-6">
                     <span class="post__date">24 Noviembre, 2022</span>
                 <h4 class="post__title">Componentes React</h4>
                 <div class="row">
-                    <img class="card__userImage" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
-                    <h5 class="card__authorTitle">Desafío Latam</h5>
+                    <img class="post__userImage" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
+                    <h5 class="post__authorTitle">Desafío Latam</h5>
                 </div>
                 </div>
             </article>
         </section>
         </div>
         <div class="row">
-            <section class="popular col-6">
-                <h2 class="section__title">Populares</h2>
+            <section class="popular col-8">
+                <h2 class="popular__title">Populares</h2>
                 <div class="row">
-                    <div class="card col-6">
-                        <figure class="card__img">
-                            <img src="assets/img/posts/vue-components.png" alt="Componentes Vue">
-                        </figure>
+                    <div class="card card__popular col-6">
+                        <img class="card__img" src="assets/img/posts/vue-components.png" alt="Componentes Vue">
                         <span class="card__date">24 Noviembre, 2022</span>
                         <h4 class="card__title">Componentes Vue</h4>
                         <div class="row">
@@ -89,10 +93,8 @@
                             <h5 class="card__authorTitle">Desafío Latam</h5>
                         </div>
                     </div>
-                    <div class="card col-6">
-                        <figure class="card__img">
-                            <img src="assets/img/posts/api-js.png" alt="Componentes Vue">
-                        </figure>
+                    <div class="card card__popular col-6">
+                            <img class="card__img" src="assets/img/posts/api-js.png" alt="Componentes Vue">
                         <span class="card__date">24 Noviembre, 2022</span>
                         <h4 class="card__title">Consumo de API con JavaScript</h4>
                         <div class="row">
@@ -100,10 +102,8 @@
                             <h5 class="card__authorTitle">Desafío Latam</h5>
                         </div>
                     </div>
-                    <div class="card col-6">
-                        <figure class="card__img">
-                            <img src="assets/img/posts/sass.jpg" alt="Sass">
-                        </figure>
+                    <div class="card card__popular col-6">
+                            <img class="card__img" src="assets/img/posts/sass.jpg" alt="Sass">
                         <span class="card__date">24 Noviembre, 2022</span>
                         <h4 class="card__title">CSS reutilizable con Sass</h4>
                         <div class="row">
@@ -111,9 +111,8 @@
                             <h5 class="card__authorTitle">Desafío Latam</h5>
                         </div>
                     </div>
-                    <div class="card col-6">
-                        <figure class="card__img">
-                            <img src="assets/img/posts/bootstrap.png" alt="Bootstrap">
+                    <div class="card card__popular col-6">
+                            <img class="card__img" src="assets/img/posts/bootstrap.png" alt="Bootstrap">
                         </figure>
                         <span class="card__date">24 Noviembre, 2022</span>
                         <h4 class="card__title">Componentes Bootstrap</h4>
@@ -124,49 +123,49 @@
                     </div>
                 </div>
             </section>
+            <aside class="categories col-4">
+                <h2 class="categories__title">Categorías</h2>
+                <div class="col category category__HTML">
+                    <a href="#" class="row">
+                        <img src="assets/img/logos/html.png" alt="HTML5 logo" class="category__logo col-4">
+                        <h3 class="category__title col-8">HTML</h3>
+                    </a>
+                </div>
+                <div class="col-12 category category__JS">
+                    <a href="#" class="row">
+                        <img src="assets/img/logos/js.png" alt="JS logo" class="category__logo col-4">
+                        <h3 class="category__title col-8">JS</h3>
+                    </a>
+                </div>
+                <div class="col-12 category category__CSS">
+                    <a href="#" class="row">
+                        <img src="assets/img/logos/css.png" alt="CSS logo" class="category__logo col-4">
+                        <h3 class="category__title col-8">CSS</h3>
+                    </a>
+                </div>
+                <div class="col-12 category category__react">
+                    <a href="#" class="row">
+                        <img src="assets/img/logos/react.png" alt="React logo" class="category__logo col-4">
+                        <h3 class="category__title col-8">React</h3>
+                    </a>
+                </div>
+                <div class="col-12 category category__JS">
+                    <a href="#" class="row">
+                        <img src="assets/img/logos/vue.png" alt="Vue logo" class="category__logo col-4">
+                        <h3 class="category__title">Vue</h3>
+                    </a>
+                </div>
+                <div class="col-12 category category__JS">
+                    <a href="#" class="row">
+                        <img src="assets/img/logos/bootstrap-logo.png" alt="Bootsrap logo" class="category__logo col-4">
+                        <h3 class="category__title">Bootstrap</h3>
+                    </a>
+                </div>
+            </aside>
         </div>
     </main>
-    <aside class="categories">
-        <h2 class="section__title">Categorías</h2>
-        <div class="col category category__HTML">
-            <a href="#" class="row">
-                <img src="assets/img/logos/html.png" alt="HTML5 logo" class="category__logo">
-                <h3 class="category__title">HTML</h3>
-            </a>
-        </div>
-        <div class="col category category__JS">
-            <a href="#" class="row">
-                <img src="assets/img/logos/js.png" alt="JS logo" class="category__logo">
-                <h3 class="category__title">JS</h3>
-            </a>
-        </div>
-        <div class="col category category__CSS">
-            <a href="#" class="row">
-                <img src="assets/img/logos/css.png" alt="CSS logo" class="category__logo">
-                <h3 class="category__title">CSS</h3>
-            </a>
-        </div>
-        <div class="col category category__react">
-            <a href="#" class="row">
-                <img src="assets/img/logos/react.png" alt="React logo" class="category__logo">
-                <h3 class="category__title">React</h3>
-            </a>
-        </div>
-        <div class="col category category__JS">
-            <a href="#" class="row">
-                <img src="assets/img/logos/vue.png" alt="Vue logo" class="category__logo">
-                <h3 class="category__title">Vue</h3>
-            </a>
-        </div>
-        <div class="col category category__JS">
-            <a href="#" class="row">
-                <img src="assets/img/logos/bootstrap-logo.png" alt="Bootsrap logo" class="category__logo">
-                <h3 class="category__title">Bootstrap</h3>
-            </a>
-        </div>
-    </aside>
-    <footer>
-        <div class="logoFooter">
+    <footer class="footer">
+        <div class="row">
             <img src="assets/img/logos/adl.png" class="footer__logo" alt="logo desafio latam">
             <h2 class="footer__title">Blog FrontEnd</h2>
         </div>
