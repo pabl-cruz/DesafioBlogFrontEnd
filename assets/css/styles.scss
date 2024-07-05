@@ -81,7 +81,7 @@ a{
 
 .header, .footer{
     width: 100%;
-    padding: 1.5rem 0rem 1.5rem 0rem;
+    padding: 1.5rem 0 1.5rem 0;
     border-bottom: 2px solid #ccc;
     &__logo{
         width: 85%;
@@ -102,7 +102,7 @@ a{
 }
 
 .main__title{
-    margin: 1.5rem 0rem 1.5rem 0rem;
+    margin: 1.5rem 0 1.5rem 0;
 }
 
 .card{
@@ -110,20 +110,20 @@ a{
     margin-bottom: 1.7rem;
     margin-top: 1.7rem;
     &__img{
-        object-fit: cover;
+        object-fit: contain;
         width: 100%;
         border-radius: 20px;
     }
     &__date{
         font-size: 18px;
-        margin: 1.7rem 0rem 0.8rem 0rem;
+        margin: 1.7rem 0 0.8rem 0;
     }
     &__title{
         font-size: 24px;
-        margin: 0.8rem 0rem 1.7rem 0rem;
+        margin: 0.8rem 0 1.7rem 0;
     }
     &__userImage{
-        width: 9%;
+        width: 18%;
         border-radius: 100px;
     }
     &__authorTitle{
@@ -133,10 +133,19 @@ a{
         padding-left: 1.5rem;
     }
     &__featured{
-        margin-top: 0rem;
+        margin-top: 0;
+    }
+    &__userImage--featured{
+        width: 13%;
     }
     &__popular{
-        margin-right: 0rem;
+        margin-right: 0;
+        
+        &__card--img{
+            height: 200px;
+            max-height: 200px;
+            object-fit: cover;
+        }
     }
 }
 
@@ -154,7 +163,7 @@ a{
         border-radius: 20px;
     }
     &__firstChild{
-        margin-top: 0rem;
+        margin-top: 0;
     }
     &__date{
         font-size: 16px;
@@ -162,7 +171,7 @@ a{
     }
     &__title{
         font-size: 20px;
-        padding: 0.5rem 0rem 0.5rem 0rem;
+        padding: 0.5rem 0 0.5rem 0;
     }
     &__userImage{
         width: 15%;
@@ -176,14 +185,67 @@ a{
     }
 }
 
-.popular{
-    
+
+.categories{
+    &__link{
+        font-size: 20px;
+        text-align: right;
+        margin-top: 3.5rem;
+    }
 }
 
 .category{
+    padding: 6px 0 6px 0;
+    margin: 1.5rem 0 1.5rem 0;
+    border-radius: 10px;
+    height: 100%;
+    max-height: 93px;
+    &__logo{
+        width: 25%;
+        max-height: 94px;
+        max-width: 100px;
+    }
     &__title{
         font-weight: 700;
         color: #FFF;
         font-size: 32px;
+        align-self: center;
+        text-align: right;
+    }
+    &__bg--HTML{
+        background-color: #e93e30;
+    }
+    &__bg--js{
+        background-color: #f7e018;
+    }
+    &__bg--css{
+        background-color: #299ed5;
+    }
+    &__bg--react{
+        background-color: #292c33;
+    }
+    &__bg--vue{
+        background-color: #67c770;
+    }
+    &__bg--bootstrap{
+        background-color: #563d7c;
+    }
+}
+
+.footer{
+    border-top: 2px solid #ccc;
+    border-bottom: none;
+    &__logo{
+        width: 5%;
+        height: fit-content;  
+    }
+    &__copyright{
+        padding: 1.5rem 0 1rem 0;
+    }
+    &__text{
+        text-align: right;
+    }
+    &__title{
+        margin-top: 1.5rem;
     }
 }
