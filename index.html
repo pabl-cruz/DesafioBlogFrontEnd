@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <header class="header">
@@ -24,7 +24,7 @@
     </header>
     <main class="container">
         <h2 class="main__title">Novedades</h2>
-        <div class="row">
+        <div class="row row--border">
         <section class="col-7 featured">
             <div class="card card__featured">
                     <img class="card__img" src="assets/img/posts/bootstrap.png" alt="logo bootstrap">
@@ -85,40 +85,40 @@
                 <h2 class="popular__title">Populares</h2>
                 <div class="row">
                     <div class="card card__popular col-5">
-                        <img class="card__img popular--card--img" src="assets/img/posts/vue-components.png" alt="Componentes Vue">
+                        <img class="card__img card--img--popular" src="assets/img/posts/vue-components.png" alt="Componentes Vue">
                         <span class="card__date">24 Noviembre, 2022</span>
-                        <h4 class="card__title">Componentes Vue</h4>
+                        <h4 class="card__title card__title--marginBottom">Componentes Vue</h4>
                         <div class="row">
-                            <img class="card__userImage" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
-                            <h5 class="card__authorTitle">Desafío Latam</h5>
+                            <img class="card__userImage card--userImage--popular" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
+                            <h5 class="card__authorTitle card--authorTitle--popular">Desafío Latam</h5>
                         </div>
                     </div>
                     <div class="card card__popular col-5">
-                            <img class="card__img popular__card--img" src="assets/img/posts/api-js.png" alt="Componentes Vue">
+                            <img class="card__img card--img--popular" src="assets/img/posts/api-js.png" alt="Componentes Vue">
                         <span class="card__date">24 Noviembre, 2022</span>
                         <h4 class="card__title">Consumo de API con JavaScript</h4>
                         <div class="row">
-                            <img class="card__userImage" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
-                            <h5 class="card__authorTitle">Desafío Latam</h5>
+                            <img class="card__userImage card--userImage--popular" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
+                            <h5 class="card__authorTitle card--authorTitle--popular">Desafío Latam</h5>
                         </div>
                     </div>
                     <div class="card card__popular col-5">
-                            <img class="card__img popular__card--img" src="assets/img/posts/sass.jpg" alt="Sass">
+                            <img class="card__img card--img--popular" src="assets/img/posts/sass.jpg" alt="Sass">
                         <span class="card__date">24 Noviembre, 2022</span>
-                        <h4 class="card__title">CSS reutilizable con Sass</h4>
+                        <h4 class="card__title card__title--marginBottom">CSS reutilizable con Sass</h4>
                         <div class="row">
-                            <img class="card__userImage" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
-                            <h5 class="card__authorTitle">Desafío Latam</h5>
+                            <img class="card__userImage card--userImage--popular" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
+                            <h5 class="card__authorTitle card--authorTitle--popular">Desafío Latam</h5>
                         </div>
                     </div>
                     <div class="card card__popular col-5">
-                            <img class="card__img popular__card--img" src="assets/img/posts/bootstrap.png" alt="Bootstrap">
+                            <img class="card__img card--img--popular" src="assets/img/posts/bootstrap.png" alt="Bootstrap">
                         </figure>
                         <span class="card__date">24 Noviembre, 2022</span>
-                        <h4 class="card__title">Componentes Bootstrap</h4>
+                        <h4 class="card__title card__title--marginBottom">Componentes Bootstrap</h4>
                         <div class="row">
-                            <img class="card__userImage" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
-                            <h5 class="card__authorTitle">Desafío Latam</h5>
+                            <img class="card__userImage card--userImage--popular" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
+                            <h5 class="card__authorTitle card--authorTitle--popular">Desafío Latam</h5>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,10 @@
                         <h3 class="category__title col-8">Bootstrap</h3>
                     </a>
                 </div>
-                <a class="categories__link" href="#">Ver todas las categorías:</a>
+                <div class="categories__link">
+                    <a href="#" class="categories__link--color">Ver todas las categorías: ></a>
+                </div>
+                
             </aside>
         </div>
     </main>
