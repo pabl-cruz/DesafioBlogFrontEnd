@@ -145,7 +145,7 @@ a {
   align-self: center;
   padding-left: 1rem;
 }
-.card__featured {
+.card--featured {
   margin-top: 0;
 }
 .card__userImage--featured {
