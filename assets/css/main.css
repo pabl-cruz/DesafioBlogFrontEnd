@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 
-:root {
+:root, input {
   font-family: "Poppins", sans-serif;
 }
 
@@ -29,7 +29,7 @@ html {
 }
 
 .col-4 {
-  width: 33.3333333333%;
+  width: 30%;
 }
 
 .col-5 {
@@ -74,15 +74,10 @@ html {
 .row {
   display: flex;
   flex-wrap: wrap;
-}
-.row--border {
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 4rem;
+  justify-content: space-between;
 }
 
 .header {
-  width: 100%;
-  padding: 1.5rem 0 1.5rem 0;
   border-bottom: 2px solid #ccc;
 }
 .header__logo {
@@ -97,8 +92,6 @@ html {
 }
 
 .card {
-  margin-right: 1.5rem;
-  margin-bottom: 1.7rem;
   margin-top: 1.7rem;
 }
 .card__img {
@@ -139,12 +132,6 @@ html {
 }
 .card__popular {
   margin-bottom: 3.5rem;
-}
-.card__popular:nth-child(odd) {
-  margin-right: 1rem;
-}
-.card__popular:nth-child(even) {
-  margin-left: 1rem;
 }
 .card--img--popular {
   height: 200px;
@@ -251,7 +238,9 @@ html {
   border-bottom: none;
 }
 .footer__logo {
-  width: 5%;
+  width: 6%;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px #d2d2d2;
   height: -moz-fit-content;
   height: fit-content;
   align-self: center;
@@ -264,9 +253,65 @@ html {
 }
 .footer__title {
   font-size: 24px;
-  padding-left: 22px;
+  padding-left: 16px;
   align-self: center;
   margin-top: 1.3rem;
+}
+
+.title {
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.form-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=submit] {
+  width: 100%;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 1px solid #7c7c7c;
+  padding: 0.8rem 0 0.8rem 0.4rem;
+  margin: 0.5rem 0 0.5rem 0;
+  font-weight: 300;
+}
+
+.card__authorTitle--post {
+  text-align: left;
+  padding-left: 0;
+}
+.card__userImage--relatedpost {
+  width: 10%;
+  height: 100%;
+}
+.card__userImage--post {
+  width: 12%;
+}
+.card__date--post {
+  margin: 0;
+  align-content: center;
+}
+.card__text--post {
+  padding: 4rem;
+}
+.card__img--post {
+  margin-left: 7rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.news__background {
+  background-color: #d2d2d2;
+  border-radius: 10px;
+}
+.news__margin {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .row--border {
@@ -278,10 +323,6 @@ h2 {
   font-size: 28px;
   margin-top: 3rem;
   margin-bottom: 1.7rem;
-}
-
-a {
-  text-decoration: none;
 }
 
 .main__title {

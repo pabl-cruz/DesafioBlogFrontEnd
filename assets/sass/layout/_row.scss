@@ -1,8 +1,5 @@
 .row{
   display: flex;
   flex-wrap: wrap; 
-  &--border{
-   border-bottom: 2px solid #ccc;
-   padding-bottom: 4rem;
-}
+ justify-content: space-between; 
 }

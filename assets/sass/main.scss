@@ -30,7 +30,9 @@
   'components/categories-link',
   'components/footer';
 //6- Pages
-
+@import
+  'pages/login',
+  'pages/post';
 //7- Themes
 @import 'theme/theme';
 

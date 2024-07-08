@@ -4,7 +4,9 @@
   border-top: 2px solid #ccc;
   border-bottom: none;
   &__logo{
-      width: 5%;
+      width: 6%;
+      border-radius: 5px;
+      box-shadow: 0 4px 4px #d2d2d2;
       height: fit-content;
       align-self: center;  
   }
@@ -16,7 +18,7 @@
   }
   &__title{
       font-size: 24px;
-      padding-left: 22px;
+      padding-left: 16px;
       align-self: center;
       margin-top: 1.3rem;
   }

@@ -1,0 +1,45 @@
+.card{
+  &__authorTitle{
+    &--post{
+      text-align: left;
+      padding-left: 0;
+    }
+  }
+  &__userImage{
+    &--relatedpost{
+      width: 10%;
+      height: 100%;
+    }
+    &--post{
+      width: 12%;
+    }
+  }
+  &__date{
+    &--post{
+      margin: 0;
+      align-content: center;
+    }
+  }
+  &__text{
+    &--post{
+      padding: 4rem;
+    }
+  }
+  &__img{
+    &--post{
+      margin-left: 7rem;
+      width: fit-content;
+    }
+  }
+}
+
+.news{
+  &__background{
+    background-color: $lightgrey;
+    border-radius: 10px;
+  }
+  &__margin{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
