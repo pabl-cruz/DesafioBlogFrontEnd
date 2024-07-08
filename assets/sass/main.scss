@@ -18,7 +18,9 @@
 @import 
   'layout/cols',
   'layout/container',
-  'layout/row';
+  'layout/row',
+  'layout/header',
+  'layout/footer';
 
 //5- Components
 @import 
@@ -28,6 +30,7 @@
   'components/user',
   'components/category',
   'components/categories-link',
+  "components/suscription",
   'components/footer';
 //6- Pages
 @import

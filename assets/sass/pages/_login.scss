@@ -6,12 +6,7 @@
   width: 100%;
 }
 
-.form-container{
-  width: 70%;
-  margin: 0 auto;
-}
-
-input[type=text],input[type=password],input[type=email], input[type=submit]{
+input[type=text],input[type=password],input[type=email]{
   width: 100%;
   border-radius: 10px;
   font-size: 18px;
@@ -19,4 +14,38 @@ input[type=text],input[type=password],input[type=email], input[type=submit]{
   padding: 0.8rem 0 0.8rem 0.4rem;
   margin: 0.5rem 0 0.5rem 0;
   font-weight: 300;
+}
+
+.button{
+  font-weight: 700;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid $grey;
+  padding: 0.8rem 0 0.8rem 0.4rem;
+  margin: 0.5rem 0 0.5rem 0;
+  background-color: $white;
+  &__logo{
+    width: 4%;
+    padding: 0 7px 0 7px;
+  }
+}
+
+.form{
+  &-container{
+      width: 70%;
+      margin: 0 auto;
+  }
+
+  &__submit{
+    background-color: $green;
+  color: $white;
+  font-size: 20px;
+  font-weight: 700;
+  }
+
+  &__text{
+    margin: 1.5rem 0 1.5rem 0;
+    text-align: center;
+  }
 }

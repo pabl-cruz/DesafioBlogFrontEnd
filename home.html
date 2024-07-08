@@ -28,6 +28,7 @@
         <div class="row row--border">
         <section class="col-7 featured">
             <div class="card card--featured">
+                <a href="post.html">
                     <img class="card__img" src="assets/img/posts/bootstrap.png" alt="logo bootstrap">
                 <span class="card__date">24 Noviembre, 2022</span>
                 <h4 class="card__title">Modifica el tema de Bootstrap con variables CSS</h4>
@@ -35,6 +36,7 @@
                     <img class="card__userImage card__userImage--featured" src="assets/img/logos/adl.png" alt="Usuario desafío Latam">
                     <h5 class="card__authorTitle">Desafío Latam</h5>
                 </div>
+                </a>
             </div>
         </section>
         <section class="col-5 featured-news">
@@ -82,9 +84,9 @@
         </section>
         </div>
         <div class="row">
-            <section class="popular col-8">
+            <section class="popular col-7">
                 <h2 class="popular__title">Populares</h2>
-                <div class="row">
+                <div class="row row--cards">
                     <div class="card card__popular col-5">
                         <img class="card__img card--img--popular" src="assets/img/posts/vue-components.png" alt="Componentes Vue">
                         <span class="card__date">24 Noviembre, 2022</span>
@@ -124,7 +126,7 @@
                     </div>
                 </div>
             </section>
-            <aside class="categories col-4">
+            <section class="categories col-4">
                 <h2 class="categories__title">Categorías</h2>
                 <div class="col-12 category category__bg--HTML">
                     <a href="#" class="row">
@@ -166,9 +168,18 @@
                     <a href="#" class="categories__link--color">Ver todas las categorías: ></a>
                 </div>
                 
-            </aside>
+            </section>
         </div>
     </main>
+    <aside class="container suscription">
+        <h3 class="col-12">Mantente actualizado sobre el desarrollo Front End</h3>
+        <form action="#">
+            <div class="row">
+                <input type="email" name='newsletter'>
+                <input class="col-3" type="submit" value="Suscríbete">   
+            </div>
+        </form>
+    </aside>
     <footer class="footer row">
         <div class="container">
             <div class="row">

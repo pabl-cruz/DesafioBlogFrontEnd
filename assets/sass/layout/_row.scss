@@ -1,5 +1,11 @@
 .row{
   display: flex;
   flex-wrap: wrap; 
- justify-content: space-between; 
+  &--cards{
+    justify-content: space-around;
+  }
+  &--button{
+    display: flex;
+    justify-content: center;
+  }
 }
