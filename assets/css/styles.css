@@ -12,13 +12,16 @@ html {
   scroll-behavior: smooth;
 }
 
-h2 {
+.title {
   font-size: 28px;
   margin-top: 3rem;
   margin-bottom: 1.7rem;
 }
+.title--main {
+  margin: 1.5rem 0 1.5rem 0;
+}
 
-a {
+.link {
   text-decoration: none;
 }
 
@@ -106,10 +109,6 @@ a {
   flex-wrap: wrap;
 }
 
-.main__title {
-  margin: 1.5rem 0 1.5rem 0;
-}
-
 .card {
   margin-right: 1.5rem;
   margin-bottom: 1.7rem;
@@ -186,9 +185,6 @@ a {
   height: 100%;
   border-radius: 20px;
 }
-.post__firstChild {
-  margin-top: 0;
-}
 .post__date {
   font-size: 16px;
   padding-bottom: 0.5rem;
@@ -208,6 +204,9 @@ a {
   font-weight: 500;
   align-self: center;
   padding-left: 0.6rem;
+}
+.post--firstChild {
+  margin-top: 0;
 }
 
 .categories__link {
