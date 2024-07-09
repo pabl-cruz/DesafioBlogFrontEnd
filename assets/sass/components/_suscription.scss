@@ -2,4 +2,24 @@
   background-color: $green;
   color: $white;
   border-radius: 12px;
+  margin-bottom: 4rem;
+  &__title{
+    font-size: 30px;
+    padding: 2rem 5rem 0 5rem;
+  }
+  &__form{
+    display: inline-flex;
+    padding: 1rem 5rem;
+    width: 85%;
+    justify-content: space-between;
+  }
+  &__input{
+    margin: 0;
+  }
+  &--button{
+    background-color: $grey;
+    margin-left: 16rem;
+    width: 45%;
+  }
 }
+

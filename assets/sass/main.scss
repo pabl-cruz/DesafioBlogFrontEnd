@@ -20,7 +20,8 @@
   'layout/container',
   'layout/row',
   'layout/header',
-  'layout/footer';
+  'layout/footer',
+  'layout/categories';
 
 //5- Components
 @import 
@@ -31,12 +32,11 @@
   'components/category',
   'components/categories-link',
   "components/suscription",
-  'components/footer';
+  'components/footer',
+  'components/main-title';
 //6- Pages
 @import
   'pages/login',
   'pages/post';
 //7- Themes
 @import 'theme/theme';
-
-@import "shame/shame";

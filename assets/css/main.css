@@ -97,6 +97,10 @@ a {
   padding: 1.5rem 0 1.5rem 0;
 }
 
+.categories {
+  margin-left: 2.5rem;
+}
+
 .header {
   border-bottom: 2px solid #ccc;
 }
@@ -255,6 +259,25 @@ a {
   background-color: #67c770;
   color: #ffffff;
   border-radius: 12px;
+  margin-bottom: 4rem;
+}
+.suscription__title {
+  font-size: 30px;
+  padding: 2rem 5rem 0 5rem;
+}
+.suscription__form {
+  display: inline-flex;
+  padding: 1rem 5rem;
+  width: 85%;
+  justify-content: space-between;
+}
+.suscription__input {
+  margin: 0;
+}
+.suscription--button {
+  background-color: #7c7c7c;
+  margin-left: 16rem;
+  width: 45%;
 }
 
 .footer {
@@ -282,6 +305,10 @@ a {
   margin-top: 1.3rem;
 }
 
+.main__title {
+  margin: 1.5rem 0 1.5rem 0;
+}
+
 .title {
   font-weight: 300;
   margin: 0 auto;
@@ -290,29 +317,21 @@ a {
   width: 100%;
 }
 
-input[type=text], input[type=password], input[type=email] {
-  width: 100%;
-  border-radius: 10px;
-  font-size: 18px;
-  border: 1px solid #7c7c7c;
-  padding: 0.8rem 0 0.8rem 0.4rem;
-  margin: 0.5rem 0 0.5rem 0;
-  font-weight: 300;
-}
-
 .button {
   font-weight: 700;
   font-size: 20px;
-  width: 100%;
   border-radius: 10px;
   border: 1px solid #7c7c7c;
-  padding: 0.8rem 0 0.8rem 0.4rem;
-  margin: 0.5rem 0 0.5rem 0;
-  background-color: #ffffff;
 }
 .button__logo {
   width: 4%;
   padding: 0 7px 0 7px;
+}
+.button--google {
+  background-color: #ffffff;
+  padding: 0.8rem 0 0.8rem 0.4rem;
+  margin: 0.5rem 0 0.5rem 0;
+  width: 100%;
 }
 
 .form-container {
@@ -324,6 +343,9 @@ input[type=text], input[type=password], input[type=email] {
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
+  padding: 0.8rem 0 0.8rem 0.4rem;
+  margin: 0.5rem 0 0.5rem 0;
+  width: 100%;
 }
 .form__text {
   margin: 1.5rem 0 1.5rem 0;
@@ -349,7 +371,7 @@ input[type=text], input[type=password], input[type=email] {
   padding: 4rem;
 }
 .card__img--post {
-  margin-left: 7rem;
+  margin-left: 9rem;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -368,12 +390,18 @@ input[type=text], input[type=password], input[type=email] {
   padding-bottom: 4rem;
 }
 
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 1px solid #7c7c7c;
+  padding: 0.8rem 0 0.8rem 0.4rem;
+  margin: 0.5rem 0 0.5rem 0;
+  font-weight: 300;
+}
+
 h2 {
   font-size: 28px;
   margin-top: 3rem;
   margin-bottom: 1.7rem;
-}
-
-.main__title {
-  margin: 1.5rem 0 1.5rem 0;
 }/*# sourceMappingURL=main.css.map */
