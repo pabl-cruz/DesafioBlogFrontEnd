@@ -16,7 +16,10 @@
 }
 
 .col-4{
-  width: 30%;
+  width: 33.333333333333334%;
+  &__relatedCards{
+    width: 30%;
+  }
 }
 
 .col-5{

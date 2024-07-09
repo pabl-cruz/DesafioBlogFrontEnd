@@ -33,6 +33,9 @@ a {
 }
 
 .col-4 {
+  width: 33.3333333333%;
+}
+.col-4__relatedCards {
   width: 30%;
 }
 
@@ -80,7 +83,7 @@ a {
   flex-wrap: wrap;
 }
 .row--cards {
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .row--button {
   display: flex;
@@ -90,6 +93,9 @@ a {
 .header {
   width: 100%;
   padding: 1.5rem 0 1.5rem 0;
+}
+.header__link {
+  display: flex;
 }
 
 .footer {
@@ -256,7 +262,7 @@ a {
 }
 
 .suscription {
-  background-color: #67c770;
+  background-color: #729d2d;
   color: #ffffff;
   border-radius: 12px;
   margin-bottom: 4rem;
@@ -276,7 +282,8 @@ a {
 }
 .suscription--button {
   background-color: #7c7c7c;
-  margin-left: 16rem;
+  padding: 0.5rem 0 0.5rem 0.4rem;
+  margin: 0.5rem 0 0.5rem 16rem;
   width: 45%;
 }
 
@@ -317,12 +324,6 @@ a {
   width: 100%;
 }
 
-.button {
-  font-weight: 700;
-  font-size: 20px;
-  border-radius: 10px;
-  border: 1px solid #7c7c7c;
-}
 .button__logo {
   width: 4%;
   padding: 0 7px 0 7px;
@@ -354,7 +355,6 @@ a {
 
 .card__authorTitle--post {
   text-align: left;
-  padding-left: 0;
 }
 .card__userImage--relatedpost {
   width: 10%;
@@ -404,4 +404,11 @@ h2 {
   font-size: 28px;
   margin-top: 3rem;
   margin-bottom: 1.7rem;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #7c7c7c;
 }/*# sourceMappingURL=main.css.map */

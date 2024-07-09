@@ -1,0 +1,9 @@
+@mixin layoutbar{
+  width: 100%;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+@mixin buttondimensions($padding, $margin){
+  padding: $padding;
+  margin: $margin;
+}

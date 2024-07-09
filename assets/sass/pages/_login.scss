@@ -9,36 +9,30 @@
 
 
 .button{
-  font-weight: 700;
-  font-size: 20px;
-  border-radius: 10px;
-  border: 1px solid $grey;
   &__logo{
     width: 4%;
     padding: 0 7px 0 7px;
   }
   &--google{
     background-color: $white;
-    padding: 0.8rem 0 0.8rem 0.4rem;
-    margin: 0.5rem 0 0.5rem 0;
+    @include buttondimensions(0.8rem 0 0.8rem 0.4rem, 0.5rem 0 0.5rem 0);
     width: 100%;
   }
 }
 
 .form{
   &-container{
-      width: 70%;
-      margin: 0 auto;
+    width: 70%;
+    margin: 0 auto;
   }
 
   &__submit{
     background-color: $green;
-  color: $white;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 0.8rem 0 0.8rem 0.4rem;
-  margin: 0.5rem 0 0.5rem 0;
-  width: 100%;
+    color: $white;
+    font-size: 20px;
+    font-weight: 700;
+    @include buttondimensions(0.8rem 0 0.8rem 0.4rem, 0.5rem 0 0.5rem 0);
+    width: 100%;
   }
 
   &__text{

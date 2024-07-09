@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap; 
   &--cards{
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   &--button{
     display: flex;

@@ -1,5 +1,5 @@
 .suscription{
-  background-color: $green;
+  background-color: $limegreen;
   color: $white;
   border-radius: 12px;
   margin-bottom: 4rem;
@@ -18,7 +18,7 @@
   }
   &--button{
     background-color: $grey;
-    margin-left: 16rem;
+    @include buttondimensions(0.5rem 0 0.5rem 0.4rem, 0.5rem 0 0.5rem 16rem);
     width: 45%;
   }
 }
